@@ -1,10 +1,14 @@
-build: main.cpp
-	g++ main.cpp -o main
+build: quick_sort.cpp merge_sort.cpp
+	g++ quick_sort.cpp -o quicksort
+	g++ merge_sort.cpp -o mergesort
 
-run: main
-	./main < input.txt > output.txt
-	cat output.txt
+run: quicksort mergesort
+	./quicksort < input.txt > quicksort_opt.txt
+	./mergesort < input.txt > mergesort_opt.txt
 
-clean: output.txt main
-	rm main
-	rm output.txt
+
+clean: mergesort quicksort mergesort_opt.txt
+	rm mergesort
+	rm quicksort
+	rm mergesort_opt.txt
+	rm quicksort_opt.txt
