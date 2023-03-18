@@ -105,6 +105,7 @@ void solve(int caseNo) {
         cout << '\n';
     }
 
+
     cout << '\n';
 }
 
