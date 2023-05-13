@@ -75,10 +75,7 @@ namespace QuickSortHelper
  * 
  */
 template<typename T, class _Comparator>
-void quickSort(std::vector<T>& arr,  /// The vector array to be sorted
-_Comparator comp /// This function should be bool (T a, T b)) 
-)
-{
+void quickSort(std::vector<T>& arr, _Comparator comp) {
     int size = arr.size();
     QuickSortHelper::quickSort(arr, 0, size - 1, comp);
 }

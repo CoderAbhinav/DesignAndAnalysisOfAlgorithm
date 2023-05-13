@@ -1,0 +1,3 @@
+Code execution time for Greedy: 5 microseconds
+Code execution time for Recursion: 13300 microseconds
+Code execution time for Dynamic Programming: 368 microseconds
