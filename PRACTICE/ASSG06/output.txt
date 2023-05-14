@@ -1,0 +1,10 @@
+Philosopher 0 is eating. Generated at 1684071389642
+Philosopher 2 is eating. Generated at 1684071389642
+Philosopher 0 finished eating. Generated at 1684071391647
+Philosopher 2 finished eating. Generated at 1684071391647
+Philosopher 4 is eating. Generated at 1684071391647
+Philosopher 1 is eating. Generated at 1684071391647
+Philosopher 4 finished eating. Generated at 1684071393652
+Philosopher 1 finished eating. Generated at 1684071393652
+Philosopher 3 is eating. Generated at 1684071393652
+Philosopher 3 finished eating. Generated at 1684071395657
